@@ -12,9 +12,24 @@
     "dev": "turbo run dev",
     "release": "pnpm turbo run test:coverage && pnpm turbo run build && pnpm changeset publish"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "typeql",
+    "realtime",
+    "api",
+    "typescript",
+    "delta",
+    "subscriptions"
+  ],
+  "author": "Sylphx <hi@sylphx.com> (https://sylphx.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SylphxAI/zen-query.git"
+  },
+  "homepage": "https://github.com/SylphxAI/zen-query#readme",
+  "bugs": {
+    "url": "https://github.com/SylphxAI/zen-query/issues"
+  },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@changesets/cli": "^2.29.2",
