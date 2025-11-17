@@ -10,6 +10,7 @@
     "build": "turbo run build",
     "lint": "biome lint",
     "dev": "turbo run dev",
+    "version-packages": "changeset version",
     "release": "pnpm turbo run test:coverage && pnpm turbo run build && pnpm changeset publish"
   },
   "keywords": [
